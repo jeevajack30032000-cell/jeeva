@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-box{
+            display: grid;
+            grid-template-rows: 100px 1fr 50px 100%;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            color: brown;
+
+        
+
+        }
+        .grid-box:hover{
+            background-color: brown;
+        }
+        .grid-box div{
+            text-align: center;
+            background-color: aqua;
+            padding: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-box">
+        <div>header</div>
+                <div>main</div>
+                        <div>footer</div>
+                        <div>extra</div>
+    </div>
+    
+</body>
+</html>
