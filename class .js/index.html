@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent" id="parent">
+        parent
+        <div class="child" id="child">
+            child
+        </div>
+    </div>
+    <script>
+        document.getElementById('parent').addEventlisterner("click", function){
+            alert("parent clicked");
+        }
+
+        document.getElementById('child');
+</body>
+</html>
+
+
+// capturing happens before the bubbling phase.
