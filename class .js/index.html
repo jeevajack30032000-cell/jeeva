@@ -17,9 +17,11 @@
             alert("parent clicked");
         });
 
-        document.getElementById('child');
+        document.getElementById('child').addEventListener("click", function() {
+            alert("child clicked");
+        });
+        </script>
 </body>
 </html>
 
-
-// capturing happens before the bubbling phase.
+<!-- // capturing happens before the bubbling phase. -->

@@ -8,17 +8,19 @@
 //   .catch(error => console.log(error));
 
 
-function fetchData() {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      resolve("Data loaded");
-    }, 2000);
-  });
-}
+// function fetchData() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       resolve("Data loaded");
+//     }, 2000);
+//   });
+// }
 
-async function showData() {
-  const result = await fetchData();
-  console.log(result);
-}
+// async function showData() {
+//   const result = await fetchData();
+//   console.log(result);
+// }
 
-showData();
+// showData();
+
+console.log(`estimated tax(10%):   $${Math.round(((2*2095)+(2*799)+998)*10/100)/100}`);
